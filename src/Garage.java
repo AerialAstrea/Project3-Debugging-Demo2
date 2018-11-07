@@ -7,9 +7,11 @@ public class Garage {
     }
 
     public String toString() {
-        String garageString = "";
+        String garageString = "Your garage contains the following vehicles:\n";
         for ( int i=0; i < numVehicles; i++ ) {
+            garageString += (i + 1) + ")";
             garageString += vehicles[i].toString();
+            garageString += "\n";
         }
 
         return garageString;
