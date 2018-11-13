@@ -8,7 +8,7 @@ public class ElectricCar extends Car {
         mpkh = batteryEconomy;
     }
 
-    public double getRnge() {
+    public double getrange() {
         return batterySize * mpkh;
     }
 
