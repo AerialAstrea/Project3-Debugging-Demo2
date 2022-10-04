@@ -11,4 +11,8 @@ public class Car extends Vehicle implements Vehicle.Driveable {
     public double getRange() {
         return gasTankSize * mpg;
     }
+
+    public String toString {
+        return super.toString() + "Gas Tank Size: " + gasTankSize + "\nMpg: " + mpg + "\n";
+    }
 }

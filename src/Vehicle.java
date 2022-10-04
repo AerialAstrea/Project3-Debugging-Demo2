@@ -12,6 +12,7 @@ public abstract class Vehicle {
         this.make = make;
         this.model = model;
         this.year = year;
+        this.name = "";
     }
 
     public String getMake() {
@@ -44,5 +45,9 @@ public abstract class Vehicle {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String toString() {
+        return make.toUpperCase() + ", " + model.toUpperCase() + ", " + year + "\n" + "Christened: " + name.toUpperCase() + "\n";
     }
 }

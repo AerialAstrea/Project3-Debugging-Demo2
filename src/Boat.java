@@ -2,6 +2,7 @@ public class Boat extends Vehicle {
 
     public Boat(String make, String model, int year) {
         super(make, model, year);
+        name = "";
     }
 
     public String toString() {
