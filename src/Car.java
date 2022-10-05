@@ -12,7 +12,7 @@ public class Car extends Vehicle implements Vehicle.Driveable {
         return gasTankSize * mpg;
     }
 
-    public String toString {
+    public String toString() {
         return super.toString() + "Gas Tank Size: " + gasTankSize + "\nMpg: " + mpg + "\n";
     }
 }
